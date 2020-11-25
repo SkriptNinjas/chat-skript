@@ -1,0 +1,8 @@
+on chat:
+    cancel event
+    if player is in world "world":
+        broadcast "&2[&aCaravana&2] &f%player's display name% &8>> &f%coloured message%"
+    if player is in world "world_nether":
+        broadcast "&4[&cCaravana Nether&4] &f%player's display name% &8>> &f%coloured message%"
+    if player is in world "world_the_end":
+        broadcast "&1[&9Caravana End&1] &f%player's display name% &8>> &f%coloured message%"
